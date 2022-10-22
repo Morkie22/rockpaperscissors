@@ -1,0 +1,27 @@
+#options div{
+    padding: 0 15px;
+}
+
+#options img{
+    width: 125px;
+    display: inline-block;
+}
+
+#down{
+    width: 200px;
+    overflow: auto;
+}
+
+#pleft{ 
+    margin: 0 auto;
+    width: 200px;
+    display: none;
+}
+
+#pright{
+    margin: 0 auto;
+    width: 200px;
+    float: center;
+    clear: both;
+    display: none;
+}

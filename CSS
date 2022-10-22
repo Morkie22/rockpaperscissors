@@ -1,0 +1,109 @@
+html, body{
+	height: 100%;
+	align-items: center;
+}
+#container{
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+	background-color:greenyellow;
+   	padding: 10px;
+}
+header{
+	background: gray;
+	color: black;
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	font-style: italic;
+}
+header h1{
+	padding: 10px;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	line-height: normal;
+}
+#main{
+	padding: 30px 0 0;
+	text-align: center;
+}
+#message{
+	padding: 0 15px;
+}
+#options{
+	padding: 50px 0;
+}
+#options div{
+	display: inline-block;
+	padding: 0 30px;
+}
+#options button{
+	border: none;
+	background: none;
+	transition: transform 0.7s ease-in-out;
+}
+.selection {
+	transform: scale(1.2);
+}
+button::-moz-focus-inner {
+	border: 0;
+}
+button:focus {
+	outline:0;
+}
+#options img{
+	size-adjust: 50%;
+	width: 50px;
+	height: auto;
+}
+#down{
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 100px;
+	overflow: hidden;
+}
+#start{
+	padding: 10px;
+	border: 1px solid navy;
+	border-radius: 5px;
+	background: gray;
+	color: black;
+	font-weight: bold;
+}
+#start:focus{
+	background: whitesmoke;
+}
+#down p{
+	font-size: 25px;
+}
+#pleft{
+	float: left;
+	display: none;
+}
+#pright{
+	float: right;
+	display: none;
+}
+#message{
+	font: 24px;
+}
+footer{
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	color: black;
+	width: 100%;
+	height: 85px;
+	clear: both;
+}
+footer p {
+	margin: 5px;
+}
+#left{
+	float: left;
+}
+#right{
+	float: right;
+}
